@@ -1,0 +1,70 @@
+
+.back {padding-left: 10%; width: 90%; height: 10%; z-index:-1; position: absolute;}
+
+.myphoto {padding-left:9%; width: 30%;  padding-top: 2%; float: left;}
+
+.had {color: #d44b15; background-color: #e5e4e4; font-size: 1em; font-family: Lato, serif; padding-right: 5%; height: 395px;}
+.icon {float: left; margin: -10% 0% 3% 70%; letter-spacing:40px;}
+.button {
+	float: left; margin: -10% 0% 3% 56%;
+  	border: none;
+	text-align: center;
+	padding: 9px 15px;
+	text-decoration: none;
+	display: inline-block;
+  	font-size: 20px;
+  	cursor: pointer;
+  	background-color: #e5e4e4; 
+  	color: black; 
+  	border: 2px solid #C1274A;
+	}
+.button:hover {background-color: white;}
+
+.had-r1 {line-height: 1em; font-size: 6em; font-weight: 100; padding-left: 37%; padding-top: 3%;}
+.had-amp {color: #fff; font-size: 2em; font-style: italic; vertical-align: bottom; margin: 0 -0.3em; }
+
+.hr1 {float: left; width: 23%; margin: 2% 80% 5% 8%; padding-left: 5%; height: 4px; background-color: white; border: 0px;}
+.ename {float: left; margin: -4% 70% 3% 5%; padding-left: 5%; color: white; font-size: 40px; font-style: oblique; font-weight: bolder;}
+
+.spirit {float: left; margin: -20% 0% 3% 33%; color:black; font-size: 55px; font-style: oblique; 
+				 font-weight: bolder; letter-spacing: 3px;}
+
+.cont {margin: 0px auto; padding-left: 8%; width: 100%; height: 1350px; z-index:-1; background-color: #FFEBE4; }
+.pic{width:400px; height: 300px; overflow:hidden;}
+.pic img{transform:scale(1,1);transition: all 1s ease-out;}
+.pic img:hover{transform:scale(1.2,1.2);}
+
+.ex {font-size:18px; line-height: 35px;}
+
+.title1 {font-size: 21px; font-weight: bold; color: #946448;}
+.h {height: 3px; background-color: #AE7A5B;}
+
+
+.c{animation-name: skillc; animation-duration: 4s;}
+.java{animation-name: skilljava; animation-duration: 4s;}
+.jsp{animation-name: skilljsp; animation-duration: 4s;}
+.ms{animation-name: skillms; animation-duration: 4s;}
+.html{animation-name: skillhtml; animation-duration: 4s;}
+.css{animation-name: skillcss; animation-duration: 4s;}
+.js{animation-name: skilljs; animation-duration: 4s;}
+
+@keyframes skillc{0%{width: 0%} 100%{width: 70%}}
+@keyframes skilljava{0%{width: 0%}100%{width: 65%}}
+@keyframes skilljsp{0%{width: 0%}100%{width: 55%}}
+@keyframes skillms{0%{width: 0%}100%{width: 50%}}
+@keyframes skillhtml{0%{width: 0%}100%{width: 85%}}
+@keyframes skillcss{0%{width: 0%}100%{width: 80%}}
+@keyframes skilljs{0%{width: 0%}100%{width: 50%}}
+
+
+.contr {float: right; padding-top: 40px; margin-right: 320px; margin-top: -100%;}
+.eximg {width: 40%; }
+
+.title2 {font-size: 21px; margin-top: 40px; font-weight: bold; color: #946448;}
+.title3 {font-size: 21px; margin-top: 70px; font-weight: bold; color: #946448;}
+.title4 {font-size: 21px; margin-top: 10px; font-weight: bold; color: #946448;}
+
+.l {font-size: 18px; line-height: 35px;}
+
+.foot{margin: 0px auto;  width: 100%; height: 100px; z-index:-1; background-color: #e5e4e4;}	
+.inf{position: center; color: black; line-height:100px; text-align:center; font-size: 18px; padding-left: 30%;}

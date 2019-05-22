@@ -1,0 +1,28 @@
+* {box-sizing: border-box}
+
+.container1 {
+  border: 2px #C1274A solid;
+  padding: 3px;
+  width: 130%;
+  background-color:white;
+}
+
+.skills {
+  text-align: right;
+  padding: 2px;
+  color: white;
+}
+
+.st{
+	float: left;
+	text-align: center;
+}
+
+
+.c {width: 70%; background-color: #F3ACAA;}
+.java {width: 65%; background-color: #FF4A73;}
+.jsp {width: 55%; background-color: #F3ACAA;}
+.ms {width: 50%; background-color: #FF4A73;}
+.html {width: 85%; background-color: #F3ACAA;}
+.css {width: 80%; background-color: #FF4A73;}
+.js {width: 50%; background-color: #F3ACAA;}
